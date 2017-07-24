@@ -143,12 +143,39 @@ margin-top: 17px;
     display: flex;
     flex-direction: row;
     margin: 0;
-
-
-
-
 }
 
 @media screen and (min-width: 1100px) {
+  header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 45px;
+  }
+  #sidebar_content{
+    background-color: #ffffdd;
+    margin-top: 17px;
 
+  }
+  #main_nav a {
+    width: 240px;
+  }
+  #main_content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+#main_content div:first-child{
+  width:70%;
+  margin-right: 10%;
+}
+
+#main_content div:nth-child(2){
+  width: 25%;
+}
+
+#logo  {
+  padding-top: 15px;
+}
 }
