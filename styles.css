@@ -97,19 +97,22 @@ header{
 #site_footer {
 margin-top: 17px;
 
+
 }
 #site_footer nav {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   background-color: #FFDDAA;
   width: 100%;
-  height: 12%;
   align-items: center;
+  height: 50px
 }
 
+#site_footer a {
+  padding: 5%;
+}
 
-
-@media screen and (min-width: 325px) {
+@media screen and (min-width: 300px) {
     header #logo{
       display: flex;
       justify-content: center;
@@ -128,6 +131,21 @@ margin-top: 17px;
 }
 
 @media screen and (min-width: 600px) {
+  #main_nav{
+    display: flex;
+    justify-content: space-between;
+  }
+  #main_nav a{
+    width: 30%;
+    margin: 5px;
+  }
+  #sidebar_content {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+
+
+
 
 }
 
